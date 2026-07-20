@@ -135,7 +135,7 @@ nav ul li a:hover{
     text-align:center;
 }
 /* ==========================
-      PROJECT PAGE
+   PROJECT PAGE
 ========================== */
 
 *{
@@ -146,20 +146,27 @@ nav ul li a:hover{
 
 body{
 
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Poppins',sans-serif;
 
-    background:#f5f5f5;
+    background:#f4f6f9;
 
     color:#222;
+
 }
 
-/* Header */
+/* ==========================
+   HEADER
+========================== */
 
 .project-header{
 
     position:relative;
 
-    padding:50px 40px 40px;
+    max-width:1400px;
+
+    margin:auto;
+
+    padding:70px 40px 50px;
 
 }
 
@@ -171,15 +178,21 @@ body{
 
     left:40px;
 
-    top:50px;
+    top:60px;
 
-    text-decoration:none;
+    padding:12px 22px;
+
+    background:#ffffff;
 
     color:#222;
 
-    font-size:18px;
+    text-decoration:none;
+
+    border-radius:50px;
 
     font-weight:600;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
 
     transition:.3s;
 
@@ -187,11 +200,17 @@ body{
 
 .back-btn:hover{
 
-    color:#2563eb;
+    background:#2563eb;
+
+    color:#fff;
+
+    transform:translateY(-3px);
 
 }
 
-/* Title */
+/* ==========================
+   TITLE
+========================== */
 
 .project-title{
 
@@ -201,7 +220,7 @@ body{
 
 .project-title h1{
 
-    font-size:48px;
+    font-size:56px;
 
     font-weight:700;
 
@@ -211,21 +230,23 @@ body{
 
 .project-title p{
 
-    font-size:20px;
+    font-size:22px;
 
-    color:#666;
+    color:#777;
 
 }
 
-/* Images */
+/* ==========================
+   IMAGES
+========================== */
 
 .project-container{
 
-    max-width:1500px;
+    max-width:1400px;
 
     margin:auto;
 
-    padding:0 40px 100px;
+    padding:0 40px 120px;
 
 }
 
@@ -235,21 +256,23 @@ body{
 
     display:block;
 
-    margin-bottom:80px;
+    border-radius:20px;
 
-    border-radius:18px;
+    margin:0 auto 80px;
 
-    box-shadow:0 15px 40px rgba(0,0,0,.12);
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
 
 }
 
-/* Responsive */
+/* ==========================
+   MOBILE
+========================== */
 
 @media(max-width:768px){
 
 .project-header{
 
-padding:30px 20px;
+padding:40px 20px;
 
 }
 
@@ -257,19 +280,21 @@ padding:30px 20px;
 
 left:20px;
 
-top:30px;
+top:25px;
+
+padding:10px 18px;
 
 }
 
 .project-title h1{
 
-font-size:34px;
+font-size:36px;
 
 }
 
 .project-title p{
 
-font-size:16px;
+font-size:18px;
 
 }
 
@@ -285,8 +310,7 @@ margin-bottom:40px;
 
 }
 
-}
-/* =========================
+}/* =========================
       PROJECT GRID
 ========================= */
 
